@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: white;
+	color: black;
+}
+.container {
+	max-width: 1440px;
+	margin: auto;
+}
+.btn {
+  display: block;
+  background: #FF9A54;
+  max-width: 200px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #F3F0E1;
+  border-radius: 3px;
+  box-shadow: 1px 2px 10px 1px rgba(128, 95, 71, .75);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+}
+#intro .logo {
+	/*position: absolute;
+	left: 20px;*/
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 10.71px;
+	font-size: 30px;
+	color: #F3F0E1;
+}
+
+#intro nav {
+  padding: 25px 60px;
+  border-bottom: 2px solid #ffffff1f;
+  margin-bottom: 40px;
+}
+
+#intro nav h1 {
+  margin: 0;
+}
+
+#intro .navigation li {
+  display: inline-block;
+}
+
+#intro .navigation li a {
+  font-size: 18px;
+  margin: 0 12px;
+  font-family: 'Roboto', sans-serif;
+  color: #F3F0E1;
+}
+
+#intro .copy {
+  max-width: 300px;
+}
+
+#intro .copy h1 {
+  color: #F3F0E1;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+#intro .copy h2 {
+  color: #F3F0E1;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+#intro .copy .btn {
+
+}
+
+#intro .navigation {
+  text-align: right;
+  margin: 0;
+	/*position: absolute;
+	right: 100px;
+	padding: 30px 0;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	letter-spacing: .56px;
+	color: #F3F0E1;
+}
+#intro {
+	background-image: url(assets/headerintroback.png);
+	/* width: 1439px; */
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	position: relative;
+}
+#perks {
+	background: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#perks h2 {
+  font-family: 'Lato', sans-serif;
+  color: #777777;
+  letter-spacing: 6px;
+  margin-bottom: 45px;
+}
+
+#perks h4 {
+  font-size: 18px;
+  color: #777777;
+}
+
+#perks img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#testimonials {
+  background-image: url(assets/testimonial.png);
+  position: relative;
+  background-size: cover;
+  height: 420px;
+  padding: 30px;
+}
+#testimonials h2 {
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 3px;
+  color: #F3F0E1;
+  text-align: center;
+}
+#testimonials .testimonial {
+  position: absolute;
+  top: 35%;
+  font-size: 45px;
+  color: #FFF;
+  max-width: 335px;
+  line-height: 50px;
+  right: 17%;
+}
+
+#testimonials .testimonial p {
+  position: relative;
+  z-index: 2;
+  color: #F3F0E1;
+}
+
+
+#testimonials .testimonial:before {
+  content: "";
+  background-image: url(assets/quotetop.png);
+  width: 69px;
+  height: 60px;
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+  left: -45px;
+  top: -24px;
+}
+
+#testimonials .testimonial:after {
+  content: "";
+  background-image: url(assets/quotebottom.png);
+  width: 69px;
+  height: 60px;
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+  bottom: -4px;
+  right: -4px;
+}
+
+#testimonials .arrowleft {
+  color: #F3F0E1;
+  position: absolute;
+  left: 50px;
+  top: 42%;
+  font-size: 45px;
+}
+#testimonials .arrowright {
+  color: #F3F0E1;
+  position: absolute;
+  right: 50px;
+  top: 42%;
+  font-size: 45px;
+}
+
+#newsletter {
+  padding: 120px 0;
+}
+
+#newsletter .wrapper {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: #777777;
+}
+
+#newsletter .wrapper h2{
+}
+
+#newsletter .btn {
+  margin: auto;
+}
+
+#newsletter input {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+  background-image: url(assets/emailicon.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 18px;
+  padding-left: 40px;
+  color: red;
+}
+
+#footer {
+	background-image: url("assets/gradientbottombar.png");
+  background-size: cover;
+  padding: 30px 0;
+}
+
+#footer .legal a {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.61);
+}
+
+#footer .menu {
+  text-align: right;
+}
+
+#footer img.fb {
+  width: 10px;
+  padding-bottom: 2px;
+}
+
+#footer img {
+  max-width: 20px;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 10px;
+}
+.menu li a {
+	color: red;
+	text-decoration: none;
+}
